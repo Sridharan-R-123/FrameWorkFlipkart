@@ -18,15 +18,15 @@ public class BaseClass {
 	FileUtility flib = new FileUtility();
 	WebdriverUtility wlib = new WebdriverUtility();
 
-	public WebDriver driver;
+	public WebDriver driver = null;
 	
 	
-	@BeforeSuite
+	@BeforeSuite(groups ={"smoke","regression"})
 	public void getconnectiontoDB() {
 		System.out.println("Connected to DataBase");
 	}
 
-	@BeforeClass
+	@BeforeClass(groups ={"smoke","regression"})
 	public void beforeclassConfig() throws Throwable {
 
 		String BROWSER = flib.getDataFromPropertiesFile("browser");
@@ -48,19 +48,19 @@ public class BaseClass {
 		driver.get(URL);
 	}
 	
-	@BeforeMethod
+	@BeforeMethod(groups ={"smoke","regression"})
 	public void beforeCongig() {
 		
 	}
 
-	@AfterClass(alwaysRun = true)
+	@AfterClass(groups ={"smoke","regression"})
 	public void afterclassConfig() {
 	 driver.quit();
 		System.out.println("driver quit");
 		
 	}
 	
-	@AfterSuite
+	@AfterSuite(groups ={"smoke","regression"})
 	public void getDBclosedconnection() {
 		System.out.println("DataBase is disconnected");
 	}

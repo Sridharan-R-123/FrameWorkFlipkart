@@ -11,12 +11,13 @@ import webdriverutility.WebdriverUtility;
 
 public class Flipkartsearch {
 	
-	
+	WebDriver driver;
 	
 	WebdriverUtility wlib = new WebdriverUtility();
 
 	 public Flipkartsearch(WebDriver driver) {
-	        
+		 this.driver = driver;
+
 	        PageFactory.initElements(driver, this);
 	 }
 	 
