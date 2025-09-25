@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-25T11:26:17 IST" name="Suite" finished-at="2025-09-25T11:29:20 IST" duration-ms="183337">
+    <groups>
+    </groups>
+    <test started-at="2025-09-25T11:26:17 IST" name="Test" finished-at="2025-09-25T11:29:20 IST" duration-ms="183337">
+      <class name="flipkart.FlipkartToExcelfile">
+        <test-method is-config="true" signature="beforeclassConfig()[pri:0, instance:flipkart.FlipkartToExcelfile@24aed80c]" started-at="2025-09-25T11:26:17 IST" name="beforeclassConfig" finished-at="2025-09-25T11:26:24 IST" duration-ms="7293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclassConfig -->
+        <test-method is-config="true" signature="beforeCongig()[pri:0, instance:flipkart.FlipkartToExcelfile@24aed80c]" started-at="2025-09-25T11:26:26 IST" name="beforeCongig" finished-at="2025-09-25T11:26:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeCongig -->
+        <test-method signature="getProductInfo(java.lang.String,java.lang.String)[pri:0, instance:flipkart.FlipkartToExcelfile@24aed80c]" started-at="2025-09-25T11:26:26 IST" name="getProductInfo" data-provider="getData" finished-at="2025-09-25T11:27:25 IST" duration-ms="58942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Apple iPhone 16 (Black, 128 GB)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductInfo -->
+        <test-method is-config="true" signature="beforeCongig()[pri:0, instance:flipkart.FlipkartToExcelfile@24aed80c]" started-at="2025-09-25T11:27:25 IST" name="beforeCongig" finished-at="2025-09-25T11:27:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeCongig -->
+        <test-method signature="getProductInfo(java.lang.String,java.lang.String)[pri:0, instance:flipkart.FlipkartToExcelfile@24aed80c]" started-at="2025-09-25T11:27:25 IST" name="getProductInfo" data-provider="getData" finished-at="2025-09-25T11:28:23 IST" duration-ms="57918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shoes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BRUTON]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductInfo -->
+        <test-method is-config="true" signature="beforeCongig()[pri:0, instance:flipkart.FlipkartToExcelfile@24aed80c]" started-at="2025-09-25T11:28:23 IST" name="beforeCongig" finished-at="2025-09-25T11:28:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeCongig -->
+        <test-method signature="getProductInfo(java.lang.String,java.lang.String)[pri:0, instance:flipkart.FlipkartToExcelfile@24aed80c]" started-at="2025-09-25T11:28:23 IST" name="getProductInfo" data-provider="getData" finished-at="2025-09-25T11:29:20 IST" duration-ms="56939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sony television]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SONY BRAVIA 2 II 108 cm (43 inch) Ultra HD (4K) LED Smart Google TV 2025 Edition]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductInfo -->
+        <test-method is-config="true" signature="afterclassConfig()[pri:0, instance:flipkart.FlipkartToExcelfile@24aed80c]" started-at="2025-09-25T11:29:20 IST" name="afterclassConfig" finished-at="2025-09-25T11:29:20 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclassConfig -->
+      </class> <!-- flipkart.FlipkartToExcelfile -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
