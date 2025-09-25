@@ -8,6 +8,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+/**
+ * @author Sridharan R
+ */
 public class WebdriverUtility {
 	
 	public void toMaximize(WebDriver driver) {
