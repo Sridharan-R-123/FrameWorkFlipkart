@@ -5,8 +5,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 
 import generic_fileutility.FileUtility;
 import webdriverutility.WebdriverUtility;
@@ -17,6 +19,12 @@ public class BaseClass {
 	WebdriverUtility wlib = new WebdriverUtility();
 
 	public WebDriver driver;
+	
+	
+	@BeforeSuite
+	public void getconnectiontoDB() {
+		System.out.println("Connected to DataBase");
+	}
 
 	@BeforeClass
 	public void beforeclassConfig() throws Throwable {
@@ -50,6 +58,11 @@ public class BaseClass {
 	 driver.quit();
 		System.out.println("driver quit");
 		
+	}
+	
+	@AfterSuite
+	public void getDBclosedconnection() {
+		System.out.println("DataBase is disconnected");
 	}
 
 }
