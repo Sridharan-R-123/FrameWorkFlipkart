@@ -30,5 +30,16 @@ public class WebdriverUtility {
 	public void navigateback(WebDriver driver) {
 		driver.navigate().back();
 	}
+	public void switchToFrame(WebDriver driver, int index) {
+		driver.switchTo().frame(index);
+	}
+
+	public void switchToFrame(WebDriver driver, String nameID) {
+		driver.switchTo().frame(nameID);
+	}
+
+	public void switchToFrame(WebDriver driver, WebElement element) {
+		driver.switchTo().frame(element);
+	}
 
 }
